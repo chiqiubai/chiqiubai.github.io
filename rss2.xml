@@ -9,8 +9,53 @@
     <atom:link href="http://chiqiubai.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 03 Apr 2024 10:24:28 GMT</pubDate>
+    <pubDate>Wed, 24 Apr 2024 08:58:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>算法笔记</title>
+      <link>http://chiqiubai.cn/2024/04/24/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</link>
+      <guid>http://chiqiubai.cn/2024/04/24/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</guid>
+      <pubDate>Wed, 24 Apr 2024 07:35:18 GMT</pubDate>
+      
+        
+        
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h3 id=&quot;购物单&quot;&gt;&lt;a href=&quot;#购物单&quot; class=&quot;headerlink&quot; title=&quot;购物单&quot;&gt;&lt;/a&gt;购物单&lt;/h3&gt;&lt;p&gt;参考&lt;a class=&quot;link&quot;   href=&quot;https://www.cnbl</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h3 id="购物单"><a href="#购物单" class="headerlink" title="购物单"></a>购物单</h3><p>参考<a class="link"   href="https://www.cnblogs.com/Candycan/p/14810910.html" >【❤重点❤】【牛客网 - 华为机试】HJ16 购物单——动态规划 - your_棒棒糖 - 博客园 (cnblogs.com)</a></p><h3 id="密码验证合格程序"><a href="#密码验证合格程序" class="headerlink" title="密码验证合格程序"></a>密码验证合格程序</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">check</span>(<span class="params">s</span>):</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(s) &lt;= <span class="number">8</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    a, b, c, d = <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> item <span class="keyword">in</span> s:</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">ord</span>(<span class="string">&#x27;a&#x27;</span>) &lt;= <span class="built_in">ord</span>(item) &lt;= <span class="built_in">ord</span>(<span class="string">&#x27;z&#x27;</span>):</span><br><span class="line">            a = <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> <span class="built_in">ord</span>(<span class="string">&#x27;A&#x27;</span>) &lt;= <span class="built_in">ord</span>(item) &lt;= <span class="built_in">ord</span>(<span class="string">&#x27;Z&#x27;</span>):</span><br><span class="line">            b = <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> <span class="built_in">ord</span>(<span class="string">&#x27;0&#x27;</span>) &lt;= <span class="built_in">ord</span>(item) &lt;= <span class="built_in">ord</span>(<span class="string">&#x27;9&#x27;</span>):</span><br><span class="line">            c = <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            d = <span class="number">1</span></span><br><span class="line">    <span class="keyword">if</span> a + b + c + d &lt; <span class="number">3</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(s)-<span class="number">3</span>):</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(s.split(s[i:i+<span class="number">3</span>])) &gt;= <span class="number">3</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> <span class="number">1</span>:</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;OK&#x27;</span> <span class="keyword">if</span> check(<span class="built_in">input</span>()) <span class="keyword">else</span> <span class="string">&#x27;NG&#x27;</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div><h3 id="合唱队"><a href="#合唱队" class="headerlink" title="合唱队"></a>合唱队</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 获取最大增长子序列</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_max_up_sub_arr</span>(<span class="params">count, arr</span>):</span><br><span class="line">    up_arr = [<span class="number">1</span> <span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(count)]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(count):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(i):</span><br><span class="line">            <span class="keyword">if</span> arr[j] &lt; arr[i]:</span><br><span class="line">                up_arr[i] = <span class="built_in">max</span>(up_arr[i], up_arr[j]+<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">return</span> up_arr</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        count = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">        arr = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split(<span class="string">&#x27; &#x27;</span>)))</span><br><span class="line">        left_up_arr = get_max_up_sub_arr(count, arr)</span><br><span class="line">        right_up_arr = get_max_up_sub_arr(count, arr[::-<span class="number">1</span>])[::-<span class="number">1</span>]</span><br><span class="line">        <span class="built_in">print</span>(count - <span class="built_in">max</span>(i + j - <span class="number">1</span> <span class="keyword">for</span> i, j <span class="keyword">in</span> <span class="built_in">zip</span>(left_up_arr, right_up_arr)))</span><br><span class="line">    <span class="keyword">except</span> EOFError:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://chiqiubai.cn/2024/04/24/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>问题解决</title>
+      <link>http://chiqiubai.cn/2024/04/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</link>
+      <guid>http://chiqiubai.cn/2024/04/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</guid>
+      <pubDate>Wed, 03 Apr 2024 12:31:32 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;fatal: unable to access ‘&lt;a class=&quot;link&quot;   href=&quot;https://github.com/chiqiubai/obsidian_backup.git/&quot; &gt;https://github.com/chiqiubai/obsidia</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>fatal: unable to access ‘<a class="link"   href="https://github.com/chiqiubai/obsidian_backup.git/" >https://github.com/chiqiubai/obsidian_backup.git/</a>‘: Failed to connect to github.com port 443 after 21139 ms: Couldn’t connect to server</p><p>git add .<br>git commit -m “all”<br>git push -u origin main</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://chiqiubai.cn/2024/04/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Hello World</title>
