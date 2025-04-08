@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JavaWebProject1</title>
+    <url>/2024/05/01/JavaWebProject1/</url>
+    <content><![CDATA[<span id="more"></span>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h2 id="开发重点"><a href="#开发重点" class="headerlink" title="开发重点"></a>开发重点</h2><p>注解的作用</p>
+<h2 id="报错信息解决"><a href="#报错信息解决" class="headerlink" title="报错信息解决"></a>报错信息解决</h2><p><a class="link"   href="https://blog.csdn.net/qq_43429800/article/details/113759264" >vue create 报错解决办法</a><br><a class="link"   href="https://blog.csdn.net/li1325169021/article/details/116504432" >vue项目如何重命名（亲测有效）</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>从零开始搭建个人博客</title>
     <url>/2024/01/21/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>本人使用GitHub+Hexo+Vercel搭建博客</p>
+    <content><![CDATA[<p>1本人使用GitHub+Hexo+Vercel搭建博客</p>
 <span id="more"></span>
 <ul>
 <li><a href="#section1">注册GitHub</a></li>
@@ -51,7 +59,33 @@
 </li>
 <li><a href="#section9">参考</a></li>
 </ul>
-<h2 id="注册GitHub"><a href="#注册GitHub" class="headerlink" title="注册GitHub"></a>注册GitHub<a id="section1"></a></h2><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git<a id="section2"></a></h2><h2 id="绑定GitHub"><a href="#绑定GitHub" class="headerlink" title="绑定GitHub"></a>绑定GitHub<a id="section3"></a></h2><h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名<a id="section4"></a></h2><h2 id="安装node-js和Hexo"><a href="#安装node-js和Hexo" class="headerlink" title="安装node.js和Hexo"></a>安装node.js和Hexo<a id="section5"></a></h2><h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名<a id="section6"></a></h2><h2 id="设置next主题"><a href="#设置next主题" class="headerlink" title="设置next主题"></a>设置next主题<a id="section7"></a></h2><p>我使用的是next(v7.7.1)，<a class="link"   href="https://link.zhihu.com/?target=https://github.com/theme-next/hexo-theme-next" >下载地址</a><br>打开博客根目录Blog文件夹，右键Git Bash，输入如下代码将next主题下载到目录Blog&#x2F;themes：</p>
+<h2 id="注册GitHub"><a href="#注册GitHub" class="headerlink" title="注册GitHub"></a>注册GitHub<a id="section1"></a></h2><p>打开网站<a class="link"   href="https://github.com/" >GitHub: Let’s build from here · GitHub</a><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/01/21/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20240522083055223.png"
+                     
+                ><br>点击右上角sign up，然后正常输入邮箱，密码，用户名<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/01/21/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20240522083610769.png"
+                     
+                ><br>然后需要做真人验证和邮箱验证，看到以下页面即成功<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/01/21/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20240522084105467.png"
+                     
+                ><br>然后可以选择学生优惠（待更新）<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/01/21/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20240522084355370.png"
+                     
+                ><br>完成登陆之后可以打开<br>在code这里download zip<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/01/21/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20240522091920079.png"
+                     
+                ></p>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git<a id="section2"></a></h2><h2 id="绑定GitHub"><a href="#绑定GitHub" class="headerlink" title="绑定GitHub"></a>绑定GitHub<a id="section3"></a></h2><h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名<a id="section4"></a></h2><h2 id="安装node-js和Hexo"><a href="#安装node-js和Hexo" class="headerlink" title="安装node.js和Hexo"></a>安装node.js和Hexo<a id="section5"></a></h2><h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名<a id="section6"></a></h2><h2 id="设置next主题"><a href="#设置next主题" class="headerlink" title="设置next主题"></a>设置next主题<a id="section7"></a></h2><p>我使用的是next(v7.7.1)，<a class="link"   href="https://link.zhihu.com/?target=https://github.com/theme-next/hexo-theme-next" >下载地址</a><br>打开博客根目录Blog文件夹，右键Git Bash，输入如下代码将next主题下载到目录Blog&#x2F;themes：</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><figcaption><span>bash</span></figcaption><table><tr><td class="code"><pre><span class="line">git clone https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></div>
 <p><img  
                      lazyload
@@ -247,6 +281,483 @@
       </tags>
   </entry>
   <entry>
+    <title>Ubuntu开发工作</title>
+    <url>/2024/06/07/Ubuntu%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C/</url>
+    <content><![CDATA[<p>ubuntu服务器开发配置</p>
+<span id="more"></span>
+
+<p>如果你不想每次登录服务器时输入密码，可以使用 SSH 密钥对进行无密码登录。以下是设置步骤：</p>
+<h2 id="新建用户组"><a href="#新建用户组" class="headerlink" title="新建用户组"></a>新建用户组</h2><p>在 Ubuntu 上使用其他用户账户创建一个新用户并赋予 sudo 权限，可以按照以下步骤操作：</p>
+<h3 id="步骤-1：登录到现有账户"><a href="#步骤-1：登录到现有账户" class="headerlink" title="步骤 1：登录到现有账户"></a>步骤 1：登录到现有账户</h3><p>首先，使用现有的具有 sudo 权限的账户登录到 Ubuntu 服务器。</p>
+<h3 id="步骤-2：创建新用户"><a href="#步骤-2：创建新用户" class="headerlink" title="步骤 2：创建新用户"></a>步骤 2：创建新用户</h3><p>使用 <code>adduser</code> 命令创建一个新用户。例如，创建一个名为 <code>newuser</code> 的用户：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo adduser newuser</span><br></pre></td></tr></table></figure></div>
+
+<p>系统会提示你输入新用户的密码和其他信息（如全名、房间号等）。你可以根据需要填写，或者按 Enter 跳过这些信息。</p>
+<h3 id="步骤-3：将新用户添加到-sudo-组"><a href="#步骤-3：将新用户添加到-sudo-组" class="headerlink" title="步骤 3：将新用户添加到 sudo 组"></a>步骤 3：将新用户添加到 sudo 组</h3><p>使用 <code>usermod</code> 命令将新用户添加到 <code>sudo</code> 组，以便赋予 sudo 权限：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo usermod -aG sudo newuser</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="步骤-4：验证新用户的-sudo-权限"><a href="#步骤-4：验证新用户的-sudo-权限" class="headerlink" title="步骤 4：验证新用户的 sudo 权限"></a>步骤 4：验证新用户的 sudo 权限</h3><p>切换到新用户并验证是否具有 sudo 权限：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">su - newuser</span><br></pre></td></tr></table></figure></div>
+
+<p>然后尝试运行一个需要 sudo 权限的命令，例如更新包列表：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure></div>
+
+<p>系统会提示你输入新用户的密码。输入密码后，如果命令成功执行，则表示新用户已经具有 sudo 权限。</p>
+<h3 id="完整示例"><a href="#完整示例" class="headerlink" title="完整示例"></a>完整示例</h3><p>以下是从头到尾的完整示例：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 登录到现有具有 sudo 权限的账户</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建新用户</span></span><br><span class="line">sudo adduser newuser</span><br><span class="line"><span class="comment"># 系统会提示输入新用户的密码和其他信息</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 将新用户添加到 sudo 组</span></span><br><span class="line">sudo usermod -aG sudo newuser</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换到新用户</span></span><br><span class="line">su - newuser</span><br><span class="line"></span><br><span class="line"><span class="comment"># 验证 sudo 权限</span></span><br><span class="line">sudo apt update</span><br><span class="line"><span class="comment"># 输入新用户的密码，确认命令是否成功执行</span></span><br></pre></td></tr></table></figure></div>
+
+<p>通过以上步骤，你可以在 Ubuntu 上使用现有账户创建一个新的用户，并赋予该用户 sudo 权限。确保你正确输入了新用户的密码，并且在执行 sudo 命令时使用新用户的密码进行验证。</p>
+<h2 id="免密码登录"><a href="#免密码登录" class="headerlink" title="免密码登录"></a>免密码登录</h2><h3 id="步骤-1：生成-SSH-密钥对"><a href="#步骤-1：生成-SSH-密钥对" class="headerlink" title="步骤 1：生成 SSH 密钥对"></a>步骤 1：生成 SSH 密钥对</h3><p>在你的本地计算机上生成一个 SSH 密钥对。如果你已经有一个密钥对，可以跳过这一步。</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>按照提示操作，这将生成一对公钥和私钥，默认保存在 <code>~/.ssh/</code> 目录下。生成密钥时可以按 Enter 键使用默认文件路径，并且可以选择不设置密钥密码。</p>
+<h3 id="步骤-2：将公钥复制到服务器"><a href="#步骤-2：将公钥复制到服务器" class="headerlink" title="步骤 2：将公钥复制到服务器"></a>步骤 2：将公钥复制到服务器</h3><p>使用 <code>ssh-copy-id</code> 命令将公钥复制到服务器上的新用户账户。如果新用户账户名为 <code>newuser</code>，服务器地址为 <code>your_server_ip</code>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">ssh-copy-id newuser@your_server_ip</span><br></pre></td></tr></table></figure></div>
+
+<p>这将提示你输入新用户的密码，并自动将公钥添加到服务器上的 <code>~/.ssh/authorized_keys</code> 文件中。</p>
+<h3 id="步骤-3：验证无密码登录"><a href="#步骤-3：验证无密码登录" class="headerlink" title="步骤 3：验证无密码登录"></a>步骤 3：验证无密码登录</h3><p>现在你可以尝试无密码登录到服务器：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">ssh newuser@your_server_ip</span><br></pre></td></tr></table></figure></div>
+
+<p>如果一切设置正确，你应该能够直接登录到服务器，而无需输入密码。</p>
+<h3 id="手动复制公钥（如果-ssh-copy-id-不可用）"><a href="#手动复制公钥（如果-ssh-copy-id-不可用）" class="headerlink" title="手动复制公钥（如果 ssh-copy-id 不可用）"></a>手动复制公钥（如果 <code>ssh-copy-id</code> 不可用）</h3><p>如果没有 <code>ssh-copy-id</code> 命令，可以手动复制公钥到服务器。</p>
+<ol>
+<li><p><strong>在本地计算机上显示公钥内容：</strong></p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>登录到服务器并创建 <code>.ssh</code> 目录（如果尚未创建）：</strong></p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">ssh newuser@your_server_ip</span><br><span class="line"><span class="built_in">mkdir</span> -p ~/.ssh</span><br><span class="line"><span class="built_in">chmod</span> 700 ~/.ssh</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>编辑或创建 <code>authorized_keys</code> 文件：</strong></p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>将本地计算机上显示的公钥内容复制到 <code>authorized_keys</code> 文件中，保存并关闭文件：</strong></p>
+<p>将 <code>id_rsa.pub</code> 的内容粘贴到 <code>authorized_keys</code> 文件中。</p>
+</li>
+<li><p><strong>设置合适的权限：</strong></p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 600 ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h3 id="完整步骤示例"><a href="#完整步骤示例" class="headerlink" title="完整步骤示例"></a>完整步骤示例</h3><ol>
+<li><p><strong>在本地计算机上生成 SSH 密钥对：</strong></p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>将公钥复制到服务器：</strong></p>
+ <div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">ssh-copy-id newuser@your_server_ip</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>验证无密码登录：</strong></p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">ssh newuser@your_server_ip</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<p>通过这些步骤，你可以设置无密码登录到服务器，简化登录过程并提高安全性。确保妥善保管你的私钥，不要将其泄露给他人。</p>
+<h2 id="ubuntu服务器克隆github故障"><a href="#ubuntu服务器克隆github故障" class="headerlink" title="ubuntu服务器克隆github故障"></a>ubuntu服务器克隆github故障</h2><p><a class="link"   href="https://www.cnblogs.com/CWZhou/p/16474048.html" >小记——Linux下使用git clone总是失败 - 幻梦翱翔 - 博客园 (cnblogs.com)</a></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.<span class="string">&quot;https://&quot;</span>.insteadOf git://</span><br></pre></td></tr></table></figure></div>
+<h2 id="WSL和深度学习环境配置"><a href="#WSL和深度学习环境配置" class="headerlink" title="WSL和深度学习环境配置"></a>WSL和深度学习环境配置</h2><p><a class="link"   href="https://blog.csdn.net/2303_80346267/article/details/140112852" >【操作与配置】Linux的CPU深度学习环境-CSDN博客</a></p>
+<h3 id="报错："><a href="#报错：" class="headerlink" title="报错："></a>报错：</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/06/07/Ubuntu%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C/image-20240709132536611.png"
+                     
+                ><br>可以参考<a href="#env">激活Anaconda</a><br>在执行上述命令后，出现 <code>conda: command not found</code> 错误通常是因为 Miniconda 的路径没有正确添加到你的系统环境变量中。以下是一些可能的解决方法：</p>
+<ol>
+<li><p><strong>手动添加环境变量</strong>：<br>打开你的 <code>.bashrc</code> 文件，并确保以下内容添加到文件末尾：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">export PATH=&quot;$HOME/miniconda3/bin:$PATH&quot;</span><br></pre></td></tr></table></figure></div>
+<p>然后保存文件并执行以下命令使其生效：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>检查是否初始化了 bash</strong>：<br>在执行 <code>~/miniconda3/bin/conda init bash</code> 后，确保你已经重新启动了终端窗口或者执行了 <code>source ~/.bashrc</code> 或 <code>source ~/.bash_profile</code>，以确保初始化的更改生效。</p>
+</li>
+<li><p><strong>检查 Miniconda 安装路径</strong>：<br>确保你的 Miniconda 确实安装在 <code>~/miniconda3</code> 目录下，这是你的 <code>wget</code> 命令下载并安装的路径。</p>
+</li>
+<li><p><strong>重新安装 Miniconda</strong>：<br>如果以上步骤都没有解决问题，可以尝试重新安装 Miniconda，并确保在安装后按照上述步骤添加了环境变量。</p>
+</li>
+</ol>
+<p>请尝试这些步骤中的一种，并确保在每次更改后重新打开一个新的终端窗口以使更改生效。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/06/07/Ubuntu%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C/image-20240709135152707.png"
+                     
+                ><br>超时报错：<br>在<code>pip</code>命令后加<code>-i https://pypi.tuna.tsinghua.edu.cn/simple</code><br>报错：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/06/07/Ubuntu%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C/image-20240717095858649.png"
+                     
+                ></p>
+<p><a class="link"   href="https://blog.csdn.net/Z_zahowei/article/details/138421413#:~:text=%E5%BD%93%E4%BD%A0%E5%9C%A8%E4%BD%BF%E7%94%A8%20conda%20%E6%97%B6%EF%BC%8C%E5%A6%82%E6%9E%9C%E5%87%BA%E7%8E%B0%22%20condaerror%3A%20Runcondainit%20before%20condaactivate%20%22%E7%9A%84%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA%EF%BC%8C%E8%BF%99%E6%98%AF%E5%9B%A0%E4%B8%BA%E4%BD%A0%E7%9A%84,condainit%20%60%60%60%203.%20%E7%AD%89%E5%BE%85%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%EF%BC%8C%E8%AE%A9%20conda%20%E5%AE%8C%E6%88%90%E5%88%9D%E5%A7%8B%E5%8C%96%E8%BF%87%E7%A8%8B%E3%80%82%204.%20%E9%87%8D%E6%96%B0%E5%90%AF%E5%8A%A8%E7%BB%88%E7%AB%AF%E6%88%96%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E7%AA%97%E5%8F%A3%E3%80%82" >conda activate 报错 CondaError: Run ‘conda init‘ before ‘conda activate‘_condaerror: run ‘conda init’ before ‘conda activat-CSDN博客</a></p>
+<p>在Ubuntu上安装Anaconda，可以按照以下步骤操作：</p>
+<h3 id="1-下载Anaconda安装包"><a href="#1-下载Anaconda安装包" class="headerlink" title="1. 下载Anaconda安装包"></a>1. 下载Anaconda安装包</h3><p>首先，前往Anaconda官网（<a class="link"   href="https://www.anaconda.com/products/distribution#download-section" >Anaconda Downloads</a>）下载适合Linux系统的Anaconda安装脚本。或者，您可以使用 <code>wget</code> 命令直接下载：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 下载Anaconda最新版本的安装脚本</span></span><br><span class="line">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</span><br></pre></td></tr></table></figure></div>
+<h3 id="2-验证下载的安装包"><a href="#2-验证下载的安装包" class="headerlink" title="2. 验证下载的安装包"></a>2. 验证下载的安装包</h3><p>为了确保下载文件的完整性，可以验证文件的SHA-256校验和。首先，从Anaconda官网获取校验和，然后运行以下命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sha256sum</span> Miniconda3-latest-Linux-x86_64.sh</span><br></pre></td></tr></table></figure></div>
+<h3 id="3-运行安装脚本"><a href="#3-运行安装脚本" class="headerlink" title="3. 运行安装脚本"></a>3. 运行安装脚本</h3><p>下载完成后，运行安装脚本：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">bash Miniconda3-latest-Linux-x86_64.sh</span><br></pre></td></tr></table></figure></div>
+<h3 id="4-按照安装向导完成安装"><a href="#4-按照安装向导完成安装" class="headerlink" title="4. 按照安装向导完成安装"></a>4. 按照安装向导完成安装</h3><p>运行安装脚本后，您会看到Anaconda安装向导。按照提示完成安装：</p>
+<ol>
+<li>阅读并接受许可协议。</li>
+<li>选择安装位置（默认为 <code>~/anaconda3</code>）。</li>
+<li>选择是否初始化Anaconda并修改您的 <code>~/.bashrc</code> 文件。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/06/07/Ubuntu%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C/image-20240706223532413.png"
+                     
+                ></li>
+</ol>
+<h3 id="5-激活Anaconda"><a href="#5-激活Anaconda" class="headerlink" title="5. 激活Anaconda"></a>5. 激活Anaconda<a id="env"></a></h3><p>如果在安装过程中选择初始化Anaconda，则安装程序会自动修改您的 <code>~/.bashrc</code> 文件，添加Anaconda的路径。如果没有选择初始化，您可以手动添加以下内容到 <code>~/.bashrc</code> 文件：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在 .bashrc 文件末尾添加以下行</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="string">&quot;<span class="variable">$HOME</span>/anaconda3/bin:<span class="variable">$PATH</span>&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>然后，运行以下命令以使更改生效：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure></div>
+<h3 id="6-验证安装"><a href="#6-验证安装" class="headerlink" title="6. 验证安装"></a>6. 验证安装</h3><p>安装完成后，您可以运行以下命令来验证Anaconda是否安装成功：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure></div>
+<p>这将显示安装的Conda版本。</p>
+<h3 id="7-更新Conda"><a href="#7-更新Conda" class="headerlink" title="7. 更新Conda"></a>7. 更新Conda</h3><p>最后，建议您更新Conda到最新版本：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">conda update conda</span><br></pre></td></tr></table></figure></div>
+<p>通过以上步骤，您应该能够在Ubuntu上成功安装Anaconda。如果您有任何问题，请随时告诉我。</p>
+<p><a class="link"   href="https://blog.csdn.net/wangtcCSDN/article/details/137950545" >Windows Subsystem for Linux (WSL) 最新详细安装教程-CSDN博客</a><br><a class="link"   href="https://blog.csdn.net/weixin_37210821/article/details/115440535?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522172027475616800226521783%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=172027475616800226521783&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-115440535-null-null.142%5Ev100%5Epc_search_result_base7&utm_term=wsl%E8%BF%81%E7%A7%BB%E5%88%B0d%E7%9B%98&spm=1018.2226.3001.4187" >WSL1 和 WSL2 从C盘 导入到 D盘_wsl迁移到d盘-CSDN博客</a><br><a class="link"   href="https://blog.csdn.net/m0_68736501/article/details/129280962" >WSL重置，打开就报错LocalState\ext4.vhdx‘找不到_wsl子系统ext4.vhdx打开报错:磁盘映像未初始化,包含无法识别的分区,或包含尚未分-CSDN博客</a><br><a class="link"   href="https://blog.csdn.net/sexyluna/article/details/105007828" >windows连接WSL-ubuntu里安装的MySQL，附安装教程_wsl ubuntu 如何连接 window上安装的数据库-CSDN博客</a><br><a class="link"   href="https://blog.csdn.net/weixin_42580217/article/details/122583888" >在windows下远程调用、连接（navicat）wsl2中 mysql 8.* 的详细步骤_wsl如何通过navicate连接mysql-CSDN博客</a><br><a class="link"   href="https://blog.csdn.net/qq_41932665/article/details/108929051" >VS Code server for WSL closed unexpectedly check WSL terminal for more details_vs code server for wsl closed unexpectedly. check -CSDN博客</a></p>
+<h2 id="用户环境管理"><a href="#用户环境管理" class="headerlink" title="用户环境管理"></a>用户环境管理</h2><p>是的，同时使用两个 Miniconda 安装是可行的，但需要一些配置来避免冲突。以下是一些步骤和注意事项，以便你可以在不同的上下文中使用这两个 Miniconda 安装：</p>
+<h3 id="1-配置环境变量"><a href="#1-配置环境变量" class="headerlink" title="1. 配置环境变量"></a>1. 配置环境变量</h3><p>确保每个 Miniconda 安装的路径都正确配置在不同的环境中，而不会相互干扰。</p>
+<h4 id="在用户环境中使用-Miniconda"><a href="#在用户环境中使用-Miniconda" class="headerlink" title="在用户环境中使用 Miniconda"></a>在用户环境中使用 Miniconda</h4><ol>
+<li>编辑用户的 <code>.bashrc</code> 或 <code>.bash_profile</code> 文件：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.bashrc</span><br></pre></td></tr></table></figure></div></li>
+<li>添加以下内容来设置 Miniconda 环境变量：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=<span class="string">&quot;/home/dujiafeng/miniconda3/bin:<span class="variable">$PATH</span>&quot;</span></span><br></pre></td></tr></table></figure></div></li>
+<li>保存并关闭文件，然后使更改生效：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="在-root-环境中使用-Miniconda"><a href="#在-root-环境中使用-Miniconda" class="headerlink" title="在 root 环境中使用 Miniconda"></a>在 root 环境中使用 Miniconda</h4><ol>
+<li>编辑 root 的 <code>.bashrc</code> 或 <code>.bash_profile</code> 文件：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /root/.bashrc</span><br></pre></td></tr></table></figure></div></li>
+<li>添加以下内容来设置 Miniconda 环境变量：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=<span class="string">&quot;/root/miniconda3/bin:<span class="variable">$PATH</span>&quot;</span></span><br></pre></td></tr></table></figure></div></li>
+<li>保存并关闭文件，然后使更改生效：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">source</span> /root/.bashrc</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h3 id="2-使用不同的环境文件"><a href="#2-使用不同的环境文件" class="headerlink" title="2. 使用不同的环境文件"></a>2. 使用不同的环境文件</h3><p>为确保在不同用户下使用不同的 Miniconda 环境，可以使用不同的环境文件来激活环境。</p>
+<h4 id="在用户环境中激活环境"><a href="#在用户环境中激活环境" class="headerlink" title="在用户环境中激活环境"></a>在用户环境中激活环境</h4><ol>
+<li>确保你在用户环境下：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">su - dujiafeng</span><br></pre></td></tr></table></figure></div></li>
+<li>激活环境：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/miniconda3/bin/activate</span><br><span class="line">conda activate &lt;environment_name&gt;</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="在-root-环境中激活环境"><a href="#在-root-环境中激活环境" class="headerlink" title="在 root 环境中激活环境"></a>在 root 环境中激活环境</h4><ol>
+<li>确保你在 root 环境下：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo su</span><br></pre></td></tr></table></figure></div></li>
+<li>激活环境：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> /root/miniconda3/bin/activate</span><br><span class="line">conda activate &lt;environment_name&gt;</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h3 id="3-创建别名以便切换"><a href="#3-创建别名以便切换" class="headerlink" title="3. 创建别名以便切换"></a>3. 创建别名以便切换</h3><p>为了方便切换，可以在 <code>.bashrc</code> 或 <code>.bash_profile</code> 文件中创建别名。</p>
+<h4 id="在用户环境中创建别名"><a href="#在用户环境中创建别名" class="headerlink" title="在用户环境中创建别名"></a>在用户环境中创建别名</h4><ol>
+<li>编辑用户的 <code>.bashrc</code> 文件：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.bashrc</span><br></pre></td></tr></table></figure></div></li>
+<li>添加别名：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">alias</span> user_conda=<span class="string">&quot;source ~/miniconda3/bin/activate&quot;</span></span><br></pre></td></tr></table></figure></div></li>
+<li>保存并关闭文件，然后使更改生效：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="在-root-环境中创建别名"><a href="#在-root-环境中创建别名" class="headerlink" title="在 root 环境中创建别名"></a>在 root 环境中创建别名</h4><ol>
+<li>编辑 root 的 <code>.bashrc</code> 文件：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /root/.bashrc</span><br></pre></td></tr></table></figure></div></li>
+<li>添加别名：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">alias</span> root_conda=<span class="string">&quot;source /root/miniconda3/bin/activate&quot;</span></span><br></pre></td></tr></table></figure></div></li>
+<li>保存并关闭文件，然后使更改生效：<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">source</span> /root/.bashrc</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h3 id="切换和使用"><a href="#切换和使用" class="headerlink" title="切换和使用"></a>切换和使用</h3><p>现在，你可以使用以下命令在用户和 root 环境中切换和使用 Miniconda：</p>
+<ul>
+<li><p>在用户环境中：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">user_conda</span><br><span class="line">conda activate &lt;environment_name&gt;</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>在 root 环境中：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo root_conda</span><br><span class="line">conda activate &lt;environment_name&gt;</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<p>通过这些步骤，你应该能够在不同的环境中使用两个 Miniconda 安装而不会互相干扰。如果有任何问题或需要进一步的帮助，请告诉我。</p>
+<p><a class="link"   href="https://blog.csdn.net/single_musketeer/article/details/130309835" >WSL Ubuntu22.04默认用户（default用户）更改_wsl ubuntu切换用户-CSDN博客</a><br><a class="link"   href="https://www.cnblogs.com/hg479/p/17869109.html" >解决”wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理” - JustInCase - 博客园 (cnblogs.com)</a><br><a class="link"   href="https://blog.csdn.net/weixin_48076899/article/details/135214749" >【Linux】自定义WSL2安装位置，安装到其他磁盘(非C盘)_wsl2指定安装路径-CSDN博客</a></p>
+<h2 id="DATABASE"><a href="#DATABASE" class="headerlink" title="DATABASE"></a>DATABASE</h2><p><a class="link"   href="https://www.sjkjc.com/posts/install-mongodb-on-ubuntu-22/" >在 Ubuntu Server 22 中安装和配置 MongoDB (sjkjc.com)</a><br>在 WSL (Windows Subsystem for Linux) 中设置 MySQL 服务开机自启动可以通过修改 <code>.bashrc</code> 文件来实现。因为 WSL 没有完整的 <code>systemd</code> 服务管理系统，所以我们需要在用户登录时启动 MySQL 服务。</p>
+<h3 id="步骤1：编辑-bashrc-文件"><a href="#步骤1：编辑-bashrc-文件" class="headerlink" title="步骤1：编辑 .bashrc 文件"></a>步骤1：编辑 <code>.bashrc</code> 文件</h3><p>打开你的 <code>.bashrc</code> 文件：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.bashrc</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="步骤2：添加启动-MySQL-服务的命令"><a href="#步骤2：添加启动-MySQL-服务的命令" class="headerlink" title="步骤2：添加启动 MySQL 服务的命令"></a>步骤2：添加启动 MySQL 服务的命令</h3><p>在文件末尾添加以下命令，以便在每次打开 WSL 终端时启动 MySQL 服务：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 启动 MySQL 服务</span></span><br><span class="line">sudo service mysql start</span><br></pre></td></tr></table></figure></div>
+
+<p>这行命令将确保每次打开 WSL 终端时，MySQL 服务都会自动启动。</p>
+<h3 id="步骤3：保存并关闭-bashrc-文件"><a href="#步骤3：保存并关闭-bashrc-文件" class="headerlink" title="步骤3：保存并关闭 .bashrc 文件"></a>步骤3：保存并关闭 <code>.bashrc</code> 文件</h3><p>按 <code>Ctrl+O</code> 保存文件，然后按 <code>Ctrl+X</code> 退出编辑器。</p>
+<h3 id="步骤4：重新加载-bashrc-文件"><a href="#步骤4：重新加载-bashrc-文件" class="headerlink" title="步骤4：重新加载 .bashrc 文件"></a>步骤4：重新加载 <code>.bashrc</code> 文件</h3><p>重新加载 <code>.bashrc</code> 文件，使更改生效：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="确认设置是否生效"><a href="#确认设置是否生效" class="headerlink" title="确认设置是否生效"></a>确认设置是否生效</h3><p>关闭 WSL 终端并重新打开，或者重新启动 WSL，然后检查 MySQL 服务是否已启动：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo service mysql status</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>由于 WSL 的设计特点，每次重启 Windows 或关闭 WSL 会停止所有服务。如果你希望在每次启动 WSL 时自动启动 MySQL，这种方法是有效的。然而，直接通过 <code>.bashrc</code> 文件管理服务可能会导致权限问题。为了解决这些问题，可以使用 <code>sudo</code> 配置不需要密码。</p>
+<h3 id="配置-sudo-以不需要密码（可选）"><a href="#配置-sudo-以不需要密码（可选）" class="headerlink" title="配置 sudo 以不需要密码（可选）"></a>配置 <code>sudo</code> 以不需要密码（可选）</h3><ol>
+<li><p>编辑 sudoers 文件：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo visudo</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>添加以下行（将 <code>username</code> 替换为你的 WSL 用户名）：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">username ALL=(ALL) NOPASSWD: /usr/sbin/service mysql start</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<p>这样可以确保在 <code>.bashrc</code> 文件中运行 <code>sudo service mysql start</code> 时不需要输入密码。</p>
+<p>通过以上步骤，你可以设置 MySQL 服务在 WSL 启动时自动启动。请注意，这种方法适用于 WSL 环境，并且假设你可以修改 <code>.bashrc</code> 文件和 <code>sudoers</code> 配置。</p>
+<h2 id="nginx配置域名"><a href="#nginx配置域名" class="headerlink" title="nginx配置域名"></a>nginx配置域名</h2><p>如果您希望将<a href="http://47.98.121.213:8688的内容通过域名www.welltransai.com访问，那么您有两种选择：">http://47.98.121.213:8688的内容通过域名www.welltransai.com访问，那么您有两种选择：</a></p>
+<ol>
+<li><p><strong>使用端口80</strong>：将Nginx配置为监听80端口，并通过反向代理将请求转发到8688端口。这是最常见的做法，因为用户无需指定端口号，访问体验更好。</p>
+</li>
+<li><p><strong>使用端口8688</strong>：直接在Nginx配置中使用8688端口，但用户需要在访问时指定端口号。</p>
+</li>
+</ol>
+<h3 id="方案1：使用端口80并通过反向代理转发到8688"><a href="#方案1：使用端口80并通过反向代理转发到8688" class="headerlink" title="方案1：使用端口80并通过反向代理转发到8688"></a>方案1：使用端口80并通过反向代理转发到8688</h3><p>这是推荐的方案，可以让用户只需访问 <code>http://www.welltransai.com</code>，不需要指定端口号。</p>
+<h4 id="步骤-1-编辑Nginx配置文件"><a href="#步骤-1-编辑Nginx配置文件" class="headerlink" title="步骤 1: 编辑Nginx配置文件"></a>步骤 1: 编辑Nginx配置文件</h4><ol>
+<li><p><strong>打开Nginx虚拟主机配置文件</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/nginx/sites-available/welltransai.com</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>添加以下配置</strong>，使用80端口并反向代理到8688端口：</p>
+<div class="highlight-container" data-rel="Nginx"><figure class="iseeu highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="section">server</span> &#123;</span><br><span class="line">    <span class="attribute">listen</span> <span class="number">80</span>;</span><br><span class="line">    <span class="attribute">server_name</span> www.welltransai.com;</span><br><span class="line"></span><br><span class="line">    <span class="section">location</span> / &#123;</span><br><span class="line">        <span class="attribute">proxy_pass</span> http://47.98.121.213:8688;</span><br><span class="line">        <span class="attribute">proxy_set_header</span> Host <span class="variable">$host</span>;</span><br><span class="line">        <span class="attribute">proxy_set_header</span> X-Real-IP <span class="variable">$remote_addr</span>;</span><br><span class="line">        <span class="attribute">proxy_set_header</span> X-Forwarded-For <span class="variable">$proxy_add_x_forwarded_for</span>;</span><br><span class="line">        <span class="attribute">proxy_set_header</span> X-Forwarded-Proto <span class="variable">$scheme</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="attribute">error_page</span> <span class="number">404</span> /<span class="number">404</span>.html;</span><br><span class="line">    <span class="section">location</span> = /<span class="number">404</span>.html &#123;</span><br><span class="line">        internal;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="attribute">error_page</span> <span class="number">500</span> <span class="number">502</span> <span class="number">503</span> <span class="number">504</span> /50x.html;</span><br><span class="line">    <span class="section">location</span> = /50x.html &#123;</span><br><span class="line">        internal;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="步骤-2-创建符号链接到sites-enabled目录"><a href="#步骤-2-创建符号链接到sites-enabled目录" class="headerlink" title="步骤 2: 创建符号链接到sites-enabled目录"></a>步骤 2: 创建符号链接到sites-enabled目录</h4><ol>
+<li><p><strong>进入sites-enabled目录</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/nginx/sites-enabled/</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>创建符号链接</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">ln</span> -s /etc/nginx/sites-available/welltransai.com</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="步骤-3-测试并重新加载Nginx配置"><a href="#步骤-3-测试并重新加载Nginx配置" class="headerlink" title="步骤 3: 测试并重新加载Nginx配置"></a>步骤 3: 测试并重新加载Nginx配置</h4><ol>
+<li><p><strong>测试Nginx配置是否正确</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo nginx -t</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>如果配置正确，重新加载Nginx</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo systemctl reload nginx</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="步骤-4-配置域名解析"><a href="#步骤-4-配置域名解析" class="headerlink" title="步骤 4: 配置域名解析"></a>步骤 4: 配置域名解析</h4><ol>
+<li><strong>登录到阿里云域名管理控制台</strong>。</li>
+<li>**找到您的域名 <code>www.welltransai.com</code>**，并添加一条A记录，指向您的ECS实例IP地址（47.98.121.213）。</li>
+</ol>
+<p>完成以上步骤后，用户可以通过 <code>http://www.welltransai.com</code> 访问您的静态网页。</p>
+<h3 id="方案2：直接使用8688端口"><a href="#方案2：直接使用8688端口" class="headerlink" title="方案2：直接使用8688端口"></a>方案2：直接使用8688端口</h3><p>如果您决定直接使用8688端口，那么在Nginx配置中应设置为8688端口，但用户需要在访问时指定端口号。</p>
+<h4 id="编辑Nginx配置文件"><a href="#编辑Nginx配置文件" class="headerlink" title="编辑Nginx配置文件"></a>编辑Nginx配置文件</h4><ol>
+<li><p><strong>打开Nginx虚拟主机配置文件</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/nginx/sites-available/welltransai.com</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>添加以下配置</strong>，使用8688端口：</p>
+<div class="highlight-container" data-rel="Nginx"><figure class="iseeu highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="section">server</span> &#123;</span><br><span class="line">    <span class="attribute">listen</span> <span class="number">8688</span>;</span><br><span class="line">    <span class="attribute">server_name</span> www.welltransai.com;</span><br><span class="line"></span><br><span class="line">    <span class="section">location</span> / &#123;</span><br><span class="line">        <span class="attribute">root</span> /home/zhanyuan/html;</span><br><span class="line">        <span class="attribute">index</span> index.html index.htm;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="attribute">error_page</span> <span class="number">404</span> /<span class="number">404</span>.html;</span><br><span class="line">    <span class="section">location</span> = /<span class="number">404</span>.html &#123;</span><br><span class="line">        internal;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="attribute">error_page</span> <span class="number">500</span> <span class="number">502</span> <span class="number">503</span> <span class="number">504</span> /50x.html;</span><br><span class="line">    <span class="section">location</span> = /50x.html &#123;</span><br><span class="line">        internal;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="创建符号链接到sites-enabled目录"><a href="#创建符号链接到sites-enabled目录" class="headerlink" title="创建符号链接到sites-enabled目录"></a>创建符号链接到sites-enabled目录</h4><ol>
+<li><p><strong>进入sites-enabled目录</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/nginx/sites-enabled/</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>创建符号链接</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">ln</span> -s /etc/nginx/sites-available/welltransai.com</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="测试并重新加载Nginx配置"><a href="#测试并重新加载Nginx配置" class="headerlink" title="测试并重新加载Nginx配置"></a>测试并重新加载Nginx配置</h4><ol>
+<li><p><strong>测试Nginx配置是否正确</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo nginx -t</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>如果配置正确，重新加载Nginx</strong>：</p>
+<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line">sudo systemctl reload nginx</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h4 id="配置域名解析"><a href="#配置域名解析" class="headerlink" title="配置域名解析"></a>配置域名解析</h4><ol>
+<li><strong>登录到阿里云域名管理控制台</strong>。</li>
+<li>**找到您的域名 <code>www.welltransai.com</code>**，并添加一条A记录，指向您的ECS实例IP地址（47.98.121.213）。</li>
+</ol>
+<p>完成以上步骤后，用户可以通过 <code>http://www.welltransai.com:8688</code> 访问您的静态网页。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>推荐使用方案1，这样用户无需指定端口号，访问体验更好。方案2虽然简单，但需要用户每次访问时都指定端口号，不太方便。</p>
+<h2 id="数据标注"><a href="#数据标注" class="headerlink" title="数据标注"></a>数据标注</h2><p><a class="link"   href="https://blog.csdn.net/m0_67394827/article/details/130007483" >YOLO 算法的自定义数据集制作及模型训练方法（附代码）yolo格式数据集-CSDN博客</a><br><a class="link"   href="https://blog.csdn.net/weixin_74319382/article/details/133345842" >使用labelimg框图闪退报错（TypeError: arguments did not match any overloaded call）在以下三行改变 drawrect,drawline 的参数为 int-CSDN博客</a></p>
+<h2 id="flask上线"><a href="#flask上线" class="headerlink" title="flask上线"></a>flask上线</h2><p>是的，Flask 是一个轻量级的 Python Web 框架，非常适合构建小型应用或 API。将 Flask 应用部署并通过外部访问涉及以下步骤：</p>
+<h3 id="1-准备环境"><a href="#1-准备环境" class="headerlink" title="1. 准备环境"></a>1. <strong>准备环境</strong></h3><p>首先，确保你已经安装了 Flask 及其依赖项。如果没有，可以通过以下命令安装：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install flask</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="2-创建一个简单的-Flask-应用"><a href="#2-创建一个简单的-Flask-应用" class="headerlink" title="2. 创建一个简单的 Flask 应用"></a>2. <strong>创建一个简单的 Flask 应用</strong></h3><p>这是一个简单的 Flask 应用示例：</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&#x27;/&#x27;</span></span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">hello_world</span>():</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;Hello, World!&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app.run(host=<span class="string">&#x27;0.0.0.0&#x27;</span>, port=<span class="number">5000</span>)</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="3-运行-Flask-应用"><a href="#3-运行-Flask-应用" class="headerlink" title="3. 运行 Flask 应用"></a>3. <strong>运行 Flask 应用</strong></h3><p>在开发环境中，可以直接运行 Flask 应用：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">python app.py</span><br></pre></td></tr></table></figure></div>
+
+<p>这会启动 Flask 服务器，默认在 <code>localhost</code> 的端口 <code>5000</code> 运行。</p>
+<h3 id="4-配置外部访问"><a href="#4-配置外部访问" class="headerlink" title="4. 配置外部访问"></a>4. <strong>配置外部访问</strong></h3><p>要使外部设备能够访问你的 Flask 应用，你需要将 <code>host</code> 参数设置为 <code>0.0.0.0</code>，这表示 Flask 应用将监听所有可用的网络接口，而不仅仅是本地回环接口。</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app.run(host=<span class="string">&#x27;0.0.0.0&#x27;</span>, port=<span class="number">5000</span>)</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="5-配置防火墙和网络"><a href="#5-配置防火墙和网络" class="headerlink" title="5. 配置防火墙和网络"></a>5. <strong>配置防火墙和网络</strong></h3><p>确保你的服务器或主机的防火墙允许外部访问 Flask 应用所使用的端口（例如 <code>5000</code>）。在 Linux 系统中，可以使用 <code>ufw</code> 来打开端口：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo ufw allow 5000</span><br></pre></td></tr></table></figure></div>
+
+<p>如果你在云服务器上部署，如 AWS EC2，确保安全组允许端口 <code>5000</code> 的入站流量。</p>
+<h3 id="6-使用生产级-WSGI-服务器"><a href="#6-使用生产级-WSGI-服务器" class="headerlink" title="6. 使用生产级 WSGI 服务器"></a>6. <strong>使用生产级 WSGI 服务器</strong></h3><p>Flask 自带的开发服务器不适合生产环境。在生产环境中，你应该使用 WSGI 服务器（如 <code>gunicorn</code> 或 <code>uWSGI</code>）来运行 Flask 应用，并使用反向代理（如 Nginx）来处理请求。</p>
+<p>例如，使用 <code>gunicorn</code> 运行 Flask 应用：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install gunicorn</span><br><span class="line">gunicorn -w 4 -b 0.0.0.0:5000 app:app</span><br></pre></td></tr></table></figure></div>
+
+<p>这里，<code>-w 4</code> 表示使用 4 个工作进程，<code>-b 0.0.0.0:5000</code> 表示绑定到所有网络接口的 5000 端口。</p>
+<h3 id="7-配置-Nginx-反向代理"><a href="#7-配置-Nginx-反向代理" class="headerlink" title="7. 配置 Nginx 反向代理"></a>7. <strong>配置 Nginx 反向代理</strong></h3><p>配置 Nginx 反向代理是为了将外部的请求转发给你的 Flask 应用，从而实现更好的性能、安全性以及负载均衡。Nginx 是一个高性能的 HTTP 和反向代理服务器，在生产环境中常用来处理客户端请求，并将请求转发给应用服务器（如 Gunicorn）。</p>
+<h3 id="配置步骤："><a href="#配置步骤：" class="headerlink" title="配置步骤："></a>配置步骤：</h3><h4 id="1-安装-Nginx"><a href="#1-安装-Nginx" class="headerlink" title="1. 安装 Nginx"></a>1. <strong>安装 Nginx</strong></h4><p>在大多数 Linux 发行版中，你可以通过包管理器来安装 Nginx。例如，在 Ubuntu 中，可以使用以下命令：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install nginx</span><br></pre></td></tr></table></figure></div>
+
+<p>安装完成后，你可以使用以下命令启动 Nginx：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl start nginx</span><br></pre></td></tr></table></figure></div>
+
+<p>你可以检查 Nginx 的状态以确保它正在运行：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl status nginx</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="2-配置-Nginx-反向代理"><a href="#2-配置-Nginx-反向代理" class="headerlink" title="2. 配置 Nginx 反向代理"></a>2. <strong>配置 Nginx 反向代理</strong></h4><p>接下来，你需要配置 Nginx，将它设置为反向代理服务器，使其将收到的请求转发给在 Gunicorn 上运行的 Flask 应用。</p>
+<p>在 Nginx 配置目录中，通常位于 <code>/etc/nginx/sites-available/</code>，创建一个新的配置文件。例如，创建一个名为 <code>flask_app</code> 的配置文件：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/nginx/sites-available/flask_app</span><br></pre></td></tr></table></figure></div>
+
+<p>在文件中添加以下内容：</p>
+<div class="highlight-container" data-rel="Nginx"><figure class="iseeu highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="section">server</span> &#123;</span><br><span class="line">    <span class="attribute">listen</span> <span class="number">80</span>;  <span class="comment"># 监听80端口（HTTP默认端口）</span></span><br><span class="line">    <span class="attribute">server_name</span> your_domain_or_IP;  <span class="comment"># 将域名替换为你的域名或服务器的IP地址</span></span><br><span class="line"></span><br><span class="line">    <span class="section">location</span> / &#123;</span><br><span class="line">        <span class="attribute">proxy_pass</span> http://127.0.0.1:5000;  <span class="comment"># 将请求转发到本地运行的Gunicorn服务器</span></span><br><span class="line">        <span class="attribute">proxy_set_header</span> Host <span class="variable">$host</span>;  <span class="comment"># 保持原始的Host头</span></span><br><span class="line">        <span class="attribute">proxy_set_header</span> X-Real-IP <span class="variable">$remote_addr</span>;  <span class="comment"># 保持客户端的IP地址</span></span><br><span class="line">        <span class="attribute">proxy_set_header</span> X-Forwarded-For <span class="variable">$proxy_add_x_forwarded_for</span>;  <span class="comment"># 保持X-Forwarded-For头信息</span></span><br><span class="line">        <span class="attribute">proxy_set_header</span> X-Forwarded-Proto <span class="variable">$scheme</span>;  <span class="comment"># 保持X-Forwarded-Proto头信息</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="解释："><a href="#解释：" class="headerlink" title="解释："></a>解释：</h4><ul>
+<li><strong>listen 80</strong>: Nginx 将监听端口 80 上的所有请求，这通常是 HTTP 的默认端口。</li>
+<li><strong>server_name</strong>: 这是你的服务器的域名或 IP 地址，用于区分不同的虚拟主机。你可以用 <code>your_domain_or_IP</code> 替换为你实际的域名或服务器 IP。</li>
+<li><strong>location &#x2F;</strong>: 这定义了根路径下的请求如何处理。<code>/</code> 表示匹配所有路径。</li>
+<li><strong>proxy_pass</strong>: 这是最重要的指令，它告诉 Nginx 将匹配的请求转发到 <code>http://127.0.0.1:5000</code>，即在本地端口 5000 上运行的 Gunicorn 服务器。</li>
+<li><strong>proxy_set_header</strong>: 这些指令用来设置请求头信息，确保请求信息如客户端 IP 地址等能正确传递给后台服务器。</li>
+</ul>
+<h4 id="3-启用配置"><a href="#3-启用配置" class="headerlink" title="3. 启用配置"></a>3. <strong>启用配置</strong></h4><p>保存并关闭文件后，需要在 <code>sites-enabled</code> 目录中启用该配置。你可以通过创建符号链接实现这一点：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">ln</span> -s /etc/nginx/sites-available/flask_app /etc/nginx/sites-enabled</span><br></pre></td></tr></table></figure></div>
+
+<p>然后，测试 Nginx 配置是否正确：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nginx -t</span><br></pre></td></tr></table></figure></div>
+
+<p>如果没有错误，重启 Nginx 以应用新配置：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl restart nginx</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="4-打开防火墙端口"><a href="#4-打开防火墙端口" class="headerlink" title="4. 打开防火墙端口"></a>4. <strong>打开防火墙端口</strong></h4><p>确保防火墙允许 HTTP 流量（端口 80）。在 Ubuntu 中，可以使用 <code>ufw</code> 来允许 HTTP 流量：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo ufw allow <span class="string">&#x27;Nginx Full&#x27;</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="5-访问你的-Flask-应用"><a href="#5-访问你的-Flask-应用" class="headerlink" title="5. 访问你的 Flask 应用"></a>5. <strong>访问你的 Flask 应用</strong></h4><p>现在，你应该可以通过浏览器访问 <code>your_domain_or_IP</code>，Nginx 将处理请求并将其转发给在 Gunicorn 上运行的 Flask 应用。如果一切配置正确，你的应用应该可以通过外部访问。</p>
+<h4 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h4><p>通过配置 Nginx 反向代理，你可以让 Nginx 处理所有外部请求，并将这些请求转发给 Gunicorn 上运行的 Flask 应用。这样做的好处包括更好的性能（Nginx 高效处理静态内容）、增强的安全性（Nginx 作为第一道防线），以及支持更复杂的架构（如负载均衡、SSL 加密等）。</p>
+<h3 id="8-使用域名访问（可选）"><a href="#8-使用域名访问（可选）" class="headerlink" title="8. 使用域名访问（可选）"></a>8. <strong>使用域名访问（可选）</strong></h3><p>如果你有一个域名，可以将其指向服务器的 IP 地址，然后通过域名访问你的 Flask 应用。确保 DNS 记录已正确配置，并且 Nginx 配置文件中的 <code>server_name</code> 设置了正确的域名。</p>
+<p>要保证 Flask 应用一直运行，通常会使用一个进程管理工具来管理和监控应用。<code>supervisord</code> 是一个常用的工具，可以自动启动、停止和重启应用程序。下面是使用 <code>supervisord</code> 来保证 Flask 应用一直运行的步骤。</p>
+<h3 id="1-安装-Supervisord"><a href="#1-安装-Supervisord" class="headerlink" title="1. 安装 Supervisord"></a>1. <strong>安装 Supervisord</strong></h3><p>在 Ubuntu 或 Debian 系统上，你可以使用以下命令安装 <code>supervisor</code>：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install supervisor</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="2-配置-Supervisord-来管理-Flask-应用"><a href="#2-配置-Supervisord-来管理-Flask-应用" class="headerlink" title="2. 配置 Supervisord 来管理 Flask 应用"></a>2. <strong>配置 Supervisord 来管理 Flask 应用</strong></h3><p>创建一个 <code>supervisord</code> 配置文件，来管理你的 Flask 应用。通常，这个配置文件位于 <code>/etc/supervisor/conf.d/</code> 目录下。</p>
+<p>创建并编辑配置文件，例如命名为 <code>flask_app.conf</code>：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/supervisor/conf.d/flask_app.conf</span><br></pre></td></tr></table></figure></div>
+
+<p>在文件中添加以下内容：</p>
+<div class="highlight-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="section">[program:flask_app]</span></span><br><span class="line"><span class="attr">command</span>=/path/to/your/venv/bin/gunicorn -w <span class="number">4</span> -b <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">5000</span> app:app</span><br><span class="line"><span class="attr">directory</span>=/path/to/your/flask_app</span><br><span class="line"><span class="attr">autostart</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">autorestart</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">stderr_logfile</span>=/var/log/flask_app.err.log</span><br><span class="line"><span class="attr">stdout_logfile</span>=/var/log/flask_app.out.log</span><br><span class="line"><span class="attr">user</span>=your_username</span><br><span class="line"><span class="attr">environment</span>=PATH=<span class="string">&quot;/path/to/your/venv/bin&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="解释：-1"><a href="#解释：-1" class="headerlink" title="解释："></a>解释：</h3><ul>
+<li><strong>command</strong>: 这是启动 Flask 应用的命令。在这里使用 <code>gunicorn</code> 来运行 Flask 应用，你需要将 <code>/path/to/your/venv/bin/</code> 替换为你的虚拟环境路径，将 <code>app:app</code> 替换为你的 Flask 应用模块和实例名。</li>
+<li><strong>directory</strong>: Flask 应用的工作目录。将 <code>/path/to/your/flask_app</code> 替换为你 Flask 应用的路径。</li>
+<li><strong>autostart</strong>: 当 <code>supervisord</code> 启动时自动启动 Flask 应用。</li>
+<li><strong>autorestart</strong>: 如果 Flask 应用崩溃或被意外终止，<code>supervisord</code> 会自动重新启动它。</li>
+<li><strong>stderr_logfile</strong> 和 <strong>stdout_logfile</strong>: 错误日志和标准输出日志的路径，可以帮助你监控应用运行状态。</li>
+<li><strong>user</strong>: 运行 Flask 应用的用户，将 <code>your_username</code> 替换为运行应用的用户。</li>
+<li><strong>environment</strong>: 用于设置 Flask 应用运行的环境变量，尤其是 <code>PATH</code>，确保 <code>supervisord</code> 能找到虚拟环境中的 <code>gunicorn</code>。</li>
+</ul>
+<h3 id="3-更新并启动-Supervisord"><a href="#3-更新并启动-Supervisord" class="headerlink" title="3. 更新并启动 Supervisord"></a>3. <strong>更新并启动 Supervisord</strong></h3><p>保存配置文件后，更新 <code>supervisord</code> 配置以加载新的服务：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo supervisorctl reread</span><br><span class="line">sudo supervisorctl update</span><br></pre></td></tr></table></figure></div>
+
+<p>接着启动 Flask 应用：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo supervisorctl start flask_app</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="4-检查应用状态"><a href="#4-检查应用状态" class="headerlink" title="4. 检查应用状态"></a>4. <strong>检查应用状态</strong></h3><p>你可以使用以下命令查看 Flask 应用的状态：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo supervisorctl status flask_app</span><br></pre></td></tr></table></figure></div>
+
+
+
+<p>如果你修改了 Flask 应用的代码，通常需要重新启动 Flask 应用，以使更改生效。使用 <code>supervisor</code> 管理 Flask 应用时，有几种方法可以处理这种情况。</p>
+<h3 id="1-使用-supervisor-重启-Flask-应用"><a href="#1-使用-supervisor-重启-Flask-应用" class="headerlink" title="1. 使用 supervisor 重启 Flask 应用"></a>1. <strong>使用 <code>supervisor</code> 重启 Flask 应用</strong></h3><p>你可以通过 <code>supervisor</code> 提供的命令来重启 Flask 应用，这样可以确保新的代码生效：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo supervisorctl restart flask_app</span><br></pre></td></tr></table></figure></div>
+
+<p>这将停止并重新启动 Flask 应用程序。<code>flask_app</code> 是你在 <code>supervisor</code> 配置中定义的程序名称。</p>
+<h3 id="2-自动重启（选项）"><a href="#2-自动重启（选项）" class="headerlink" title="2. 自动重启（选项）"></a>2. <strong>自动重启（选项）</strong></h3><p>如果你想让应用在代码更改时自动重启，可以使用 <code>supervisor</code> 的 <code>autorestart</code> 选项。该选项已经在你之前的配置中设置为 <code>true</code>，即：</p>
+<div class="highlight-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">autorestart</span>=<span class="literal">true</span></span><br></pre></td></tr></table></figure></div>
+
+<p>然而，这个配置通常是应用程序崩溃时才会自动重启。如果你想让应用在代码更改时自动重启，需要配合 <code>supervisor</code> 的 <code>reloader</code> 模式（Flask 内置的热加载机制）或使用其他工具（例如 <code>watchdog</code>）来监控文件变动并触发重启。</p>
+<h3 id="3-使用-Flask-的-debug-模式（开发环境）"><a href="#3-使用-Flask-的-debug-模式（开发环境）" class="headerlink" title="3. 使用 Flask 的 debug 模式（开发环境）"></a>3. <strong>使用 Flask 的 <code>debug</code> 模式（开发环境）</strong></h3><p>在开发环境中，您可以通过启用 Flask 的 <code>debug</code> 模式来自动重载代码。当代码发生更改时，Flask 应用会自动重新加载。你可以在运行 <code>flask run</code> 或 <code>gunicorn</code> 时通过设置环境变量或在代码中启用 <code>debug</code> 模式。</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app.run(debug=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="4-重新加载-gunicorn"><a href="#4-重新加载-gunicorn" class="headerlink" title="4. 重新加载 gunicorn"></a>4. <strong>重新加载 <code>gunicorn</code></strong></h3><p>如果你使用 <code>gunicorn</code>，也可以通过向 <code>gunicorn</code> 主进程发送信号来触发重载，而不需要完全重启 <code>supervisor</code> 服务。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">kill</span> -HUP &lt;gunicorn_master_pid&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>这种方法会平滑重启 <code>gunicorn</code>，使其加载新代码，而不影响当前连接的客户端。</p>
+<h3 id="5-强制重启-supervisor-进程"><a href="#5-强制重启-supervisor-进程" class="headerlink" title="5. 强制重启 supervisor 进程"></a>5. <strong>强制重启 <code>supervisor</code> 进程</strong></h3><p>作为最后的手段，你可以通过重启 <code>supervisor</code> 来重启所有由 <code>supervisor</code> 管理的服务：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sudo supervisorctl restart all</span><br></pre></td></tr></table></figure></div>
+
+<p>不过，这种方法会重启 <code>supervisor</code> 管理的所有进程，可能不是最优的做法。</p>
+<p><code>supervisor</code> 本身并不直接支持文件变更监控的重新加载功能，但是你可以通过以下几种方法来实现自动重载代码的功能，类似于 Flask 内置的 <code>reloader</code> 模式。</p>
+<h3 id="1-使用-Flask-的-debug-模式"><a href="#1-使用-Flask-的-debug-模式" class="headerlink" title="1. 使用 Flask 的 debug 模式"></a>1. <strong>使用 Flask 的 <code>debug</code> 模式</strong></h3><p>在开发环境中，你可以使用 Flask 的 <code>debug</code> 模式来实现自动重新加载。启用 <code>debug</code> 模式后，Flask 会监控项目中的文件变化，当代码发生变化时，应用会自动重新加载。</p>
+<p>在 Flask 代码中，启用 <code>debug</code> 模式如下：</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app.run(debug=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure></div>
+
+<p>这种方法非常适合开发环境，但是不推荐在生产环境中使用，因为 <code>debug</code> 模式下的应用性能较差，且存在安全隐患。</p>
+<h3 id="2-使用-gunicorn-的-reload-选项"><a href="#2-使用-gunicorn-的-reload-选项" class="headerlink" title="2. 使用 gunicorn 的 --reload 选项"></a>2. <strong>使用 <code>gunicorn</code> 的 <code>--reload</code> 选项</strong></h3><p>在生产环境中，你可以使用 <code>gunicorn</code> 提供的 <code>--reload</code> 选项，该选项可以监控代码变化并自动重启服务器。这个方法和 Flask 的 <code>debug</code> 模式类似，但适用于生产环境。</p>
+<p>配置 <code>supervisor</code> 使用 <code>gunicorn</code> 的 <code>--reload</code> 选项，可以在配置文件中这样写：</p>
+<div class="highlight-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="section">[program:flask_app]</span></span><br><span class="line"><span class="attr">command</span>=/path/to/your/venv/bin/gunicorn --reload -w <span class="number">4</span> -b <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">5000</span> app:app</span><br><span class="line"><span class="attr">directory</span>=/path/to/your/flask_app</span><br><span class="line"><span class="attr">autostart</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">autorestart</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">stderr_logfile</span>=/var/log/flask_app.err.log</span><br><span class="line"><span class="attr">stdout_logfile</span>=/var/log/flask_app.out.log</span><br><span class="line"><span class="attr">user</span>=your_username</span><br><span class="line"><span class="attr">environment</span>=PATH=<span class="string">&quot;/path/to/your/venv/bin&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="3-使用-watchdog-或-watchmedo-自动重启"><a href="#3-使用-watchdog-或-watchmedo-自动重启" class="headerlink" title="3. 使用 watchdog 或 watchmedo 自动重启"></a>3. <strong>使用 <code>watchdog</code> 或 <code>watchmedo</code> 自动重启</strong></h3><p><code>watchdog</code> 是一个 Python 库，用于监控文件系统事件。你可以使用 <code>watchdog</code> 的命令行工具 <code>watchmedo</code> 来监控代码变动并触发 <code>supervisorctl restart</code>。</p>
+<p>首先，安装 <code>watchdog</code>：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install watchdog</span><br></pre></td></tr></table></figure></div>
+
+<p>然后，使用以下命令来监控文件变动并重启 <code>supervisor</code> 中的 Flask 应用：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- supervisorctl restart flask_app</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>--directory=./</code>: 指定要监控的目录，通常是你的 Flask 应用目录。</li>
+<li><code>--pattern=*.py</code>: 指定监控的文件模式，这里为 <code>.py</code> 文件。</li>
+<li><code>--recursive</code>: 递归监控子目录中的文件。</li>
+<li><code>supervisorctl restart flask_app</code>: 文件变动时要执行的命令，这里是重启 <code>supervisor</code> 管理的 Flask 应用。</li>
+</ul>
+<p>你可以将这个命令写入到 <code>supervisor</code> 配置中作为一个独立的任务：</p>
+<div class="highlight-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="section">[program:flask_watcher]</span></span><br><span class="line"><span class="attr">command</span>=watchmedo auto-restart --directory=/path/to/your/flask_app --pattern=*.py --recursive -- supervisorctl restart flask_app</span><br><span class="line"><span class="attr">autostart</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">autorestart</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">stderr_logfile</span>=/var/log/flask_watcher.err.log</span><br><span class="line"><span class="attr">stdout_logfile</span>=/var/log/flask_watcher.out.log</span><br><span class="line"><span class="attr">user</span>=your_username</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="4-使用-entr-工具"><a href="#4-使用-entr-工具" class="headerlink" title="4. 使用 entr 工具"></a>4. <strong>使用 <code>entr</code> 工具</strong></h3><p><code>entr</code> 是一个简洁的 UNIX 工具，用于监控文件系统的变化。可以通过以下方式使用：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ls</span> *.py | entr supervisorctl restart flask_app</span><br></pre></td></tr></table></figure></div>
+
+<p>这将在当前目录下监控所有 <code>.py</code> 文件的变化，一旦发生变化，就会重启 Flask 应用。</p>
+<h3 id="5-总结"><a href="#5-总结" class="headerlink" title="5. 总结"></a>5. <strong>总结</strong></h3><ul>
+<li><strong>开发环境</strong>：使用 Flask 的 <code>debug</code> 模式或 <code>gunicorn</code> 的 <code>--reload</code> 选项。</li>
+<li><strong>生产环境</strong>：使用 <code>watchdog</code>（或 <code>watchmedo</code>）、<code>entr</code> 等工具与 <code>supervisor</code> 配合，自动监控代码变动并重启服务。</li>
+</ul>
+<p>这些方法都能让你的 Flask 应用在代码变更后自动重启，确保最新的代码被立即应用。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>iOS翻墙解决方案</title>
+    <url>/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>iOS系统使用ChatGPT</p>
+<span id="more"></span>
+<h2 id="注册美区账号"><a href="#注册美区账号" class="headerlink" title="注册美区账号"></a>注册美区账号</h2><p>参考链接：<a class="link"   href="https://zhuanlan.zhihu.com/p/450898662" >五分钟注册一个美区的iOS账号，不用花钱！ - 知乎 (zhihu.com)</a><br>但是这个方法太复杂，还要海外账号。<br>打开网址<a class="link"   href="https://appstore.panbaid.com/share/dvzPXGBnVR" >账号分享 (panbaid.com)</a>，然后拉到最下面看到：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520095012176.png"
+                     
+                >有“可下载【小火箭】的帐号”即可</p>
+<h2 id="登录AppleID"><a href="#登录AppleID" class="headerlink" title="登录AppleID"></a>登录AppleID</h2><p>打开app store点击右上角账户，然后拉到最底端<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520095237973.png"
+                     
+                ><br>点击退出登录，然后回到最上面登录上面网站里状态正常的账号，如果账号锁定可在网站里点击解锁<br><strong>注意给定账号只能登陆app store，不要在设置里登录icloud，相关提示信息可忽略</strong></p>
+<h2 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h2><p>在app store里搜索shadowrocket和chatgpt如下<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520095541106.png"
+                     
+                ><br>确定chatgpt的开发信息是openai：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520095625566.png"
+                     
+                ></p>
+<h2 id="导入机场节点"><a href="#导入机场节点" class="headerlink" title="导入机场节点"></a>导入机场节点</h2><p>打开<a class="link"   href="https://web.efcloud.cc/#/stage/dashboard" >仪表盘 - EFCloud</a>登录<br>账号</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">2048009367</span><br></pre></td></tr></table></figure></div>
+<p>密码</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">djf312107</span><br></pre></td></tr></table></figure></div>
+<p>在仪表盘页面下拉看到<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520095910413.png"
+                     
+                ><br>点击shadowrocket订阅跳转软件，导入之后把右上角按钮打开<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520100153818.png"
+                     
+                ><br>点击连通性测试后会显示节点状况，数字越小代表连接越快，当前节点断联可使用其他节点。<br>可以打开“全局路由”使用“启用回退”。</p>
+<h2 id="使用gpt"><a href="#使用gpt" class="headerlink" title="使用gpt"></a>使用gpt</h2><p>打开chatgpt<br>使用邮箱登录<br>账号</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">tvvDkt7O2azAm4t@hotmail.com</span><br></pre></td></tr></table></figure></div>
+<p>密码</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">xzGCQwhS0MM4</span><br></pre></td></tr></table></figure></div>
+<p>这是我租的和其他人共享的账号，可以在上方选择使用gpt-4o，效果比gpt4好<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520100623995.png"
+                     
+                ><br>登陆成功即可<br>完成问答之后可选择将记录归档<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520100655682.png"
+                     
+                ></p>
+<p>并点击左下角账号设置中找到<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520100723288.png"
+                     
+                ></p>
+]]></content>
+  </entry>
+  <entry>
     <title>算法笔记</title>
     <url>/2024/04/24/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>算法学习+刷题笔记</p>
@@ -266,6 +777,9 @@
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &quot;all&quot;</span><br></pre></td></tr></table></figure></div>
 
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure></div>
+
+
+<p>ModuleNotFoundError: No module named ‘requests’<br>pip install requests  –force-reinstall</p>
 ]]></content>
   </entry>
   <entry>
@@ -293,7 +807,7 @@
     <url>/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>生产力工具合集</p>
 <span id="more"></span>
-<h2 id="自动补全代码"><a href="#自动补全代码" class="headerlink" title="自动补全代码"></a>自动补全代码</h2><p>VSCode 的插件 Fitten Code 是由非十大模型驱动的 AI 编程助手，它可以自动生成代码，提升开发效率，帮您调试 Bug，节省您的时间， 另外还可以对话聊天，解决您编程碰到的问题。<br>Fitten Code 免费且支持 80 多种语言：Python、C++、Javascript、Typescript、Java等。</p>
+<h2 id="GitHub使用"><a href="#GitHub使用" class="headerlink" title="GitHub使用"></a>GitHub使用</h2><h2 id="自动补全代码"><a href="#自动补全代码" class="headerlink" title="自动补全代码"></a>自动补全代码</h2><p>VSCode 的插件 Fitten Code 是由非十大模型驱动的 AI 编程助手，它可以自动生成代码，提升开发效率，帮您调试 Bug，节省您的时间， 另外还可以对话聊天，解决您编程碰到的问题。<br>Fitten Code 免费且支持 80 多种语言：Python、C++、Javascript、Typescript、Java等。</p>
 <ul>
 <li><a href="#section1">安装</a></li>
 </ul>
@@ -319,11 +833,5 @@
                      
                 ></p>
 <h3 id="2、智能补全"><a href="#2、智能补全" class="headerlink" title="2、智能补全"></a>2、智能补全</h3>]]></content>
-  </entry>
-  <entry>
-    <title>NineMonths</title>
-    <url>/2024/03/30/NineMonths/</url>
-    <content><![CDATA[<p>我希望你已经准备好了</p>
-<span id="more"></span>]]></content>
   </entry>
 </search>
