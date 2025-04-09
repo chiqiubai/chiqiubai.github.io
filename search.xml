@@ -432,14 +432,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>JavaWebProject1</title>
-    <url>/2024/05/01/JavaWebProject1/</url>
-    <content><![CDATA[<span id="more"></span>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h2 id="开发重点"><a href="#开发重点" class="headerlink" title="开发重点"></a>开发重点</h2><p>注解的作用</p>
-<h2 id="报错信息解决"><a href="#报错信息解决" class="headerlink" title="报错信息解决"></a>报错信息解决</h2><p><a class="link"   href="https://blog.csdn.net/qq_43429800/article/details/113759264" >vue create 报错解决办法<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br><a class="link"   href="https://blog.csdn.net/li1325169021/article/details/116504432" >vue项目如何重命名（亲测有效）<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>iOS翻墙解决方案</title>
     <url>/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
     <content><![CDATA[<p>iOS系统使用ChatGPT</p>
@@ -457,8 +449,8 @@
                      lazyload
                      src="/images/loading.svg"
                      data-src="/2024/05/17/iOS%E7%BF%BB%E5%A2%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image-20240520095237973.png"
-                      alt="登录页面1|400"
-                ><figcaption>登录页面1|400</figcaption></figure></p>
+                      alt="400"
+                ><figcaption>400</figcaption></figure></p>
 <p>点击退出登录，然后<del>回到最上面登录上面网站里状态正常的账号，如果账号锁定可在网站里点击解锁</del>登录美区账号<br><strong>注意给定账号只能登陆app store，不要在设置里登录icloud，相关提示信息可忽略</strong></p>
 <h2 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h2><p>在app store里搜索shadowrocket和chatgpt如下</p>
 <p><figure class="image-caption"><img  
@@ -524,6 +516,14 @@
 ]]></content>
   </entry>
   <entry>
+    <title>JavaWebProject1</title>
+    <url>/2024/05/01/JavaWebProject1/</url>
+    <content><![CDATA[<span id="more"></span>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h2 id="开发重点"><a href="#开发重点" class="headerlink" title="开发重点"></a>开发重点</h2><p>注解的作用</p>
+<h2 id="报错信息解决"><a href="#报错信息解决" class="headerlink" title="报错信息解决"></a>报错信息解决</h2><p><a class="link"   href="https://blog.csdn.net/qq_43429800/article/details/113759264" >vue create 报错解决办法<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br><a class="link"   href="https://blog.csdn.net/li1325169021/article/details/116504432" >vue项目如何重命名（亲测有效）<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>算法笔记</title>
     <url>/2024/04/24/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>算法学习+刷题笔记</p>
@@ -532,38 +532,6 @@
 <h3 id="购物单"><a href="#购物单" class="headerlink" title="购物单"></a>购物单</h3><p>参考<a class="link"   href="https://www.cnblogs.com/Candycan/p/14810910.html" >【❤重点❤】【牛客网 - 华为机试】HJ16 购物单——动态规划 - your_棒棒糖 - 博客园 (cnblogs.com)<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 <h3 id="密码验证合格程序"><a href="#密码验证合格程序" class="headerlink" title="密码验证合格程序"></a>密码验证合格程序</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">check</span>(<span class="params">s</span>):</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(s) &lt;= <span class="number">8</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    a, b, c, d = <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> item <span class="keyword">in</span> s:</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">ord</span>(<span class="string">&#x27;a&#x27;</span>) &lt;= <span class="built_in">ord</span>(item) &lt;= <span class="built_in">ord</span>(<span class="string">&#x27;z&#x27;</span>):</span><br><span class="line">            a = <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> <span class="built_in">ord</span>(<span class="string">&#x27;A&#x27;</span>) &lt;= <span class="built_in">ord</span>(item) &lt;= <span class="built_in">ord</span>(<span class="string">&#x27;Z&#x27;</span>):</span><br><span class="line">            b = <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> <span class="built_in">ord</span>(<span class="string">&#x27;0&#x27;</span>) &lt;= <span class="built_in">ord</span>(item) &lt;= <span class="built_in">ord</span>(<span class="string">&#x27;9&#x27;</span>):</span><br><span class="line">            c = <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            d = <span class="number">1</span></span><br><span class="line">    <span class="keyword">if</span> a + b + c + d &lt; <span class="number">3</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(s)-<span class="number">3</span>):</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(s.split(s[i:i+<span class="number">3</span>])) &gt;= <span class="number">3</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> <span class="number">1</span>:</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;OK&#x27;</span> <span class="keyword">if</span> check(<span class="built_in">input</span>()) <span class="keyword">else</span> <span class="string">&#x27;NG&#x27;</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
 <h3 id="合唱队"><a href="#合唱队" class="headerlink" title="合唱队"></a>合唱队</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 获取最大增长子序列</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_max_up_sub_arr</span>(<span class="params">count, arr</span>):</span><br><span class="line">    up_arr = [<span class="number">1</span> <span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(count)]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(count):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(i):</span><br><span class="line">            <span class="keyword">if</span> arr[j] &lt; arr[i]:</span><br><span class="line">                up_arr[i] = <span class="built_in">max</span>(up_arr[i], up_arr[j]+<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">return</span> up_arr</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        count = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">        arr = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split(<span class="string">&#x27; &#x27;</span>)))</span><br><span class="line">        left_up_arr = get_max_up_sub_arr(count, arr)</span><br><span class="line">        right_up_arr = get_max_up_sub_arr(count, arr[::-<span class="number">1</span>])[::-<span class="number">1</span>]</span><br><span class="line">        <span class="built_in">print</span>(count - <span class="built_in">max</span>(i + j - <span class="number">1</span> <span class="keyword">for</span> i, j <span class="keyword">in</span> <span class="built_in">zip</span>(left_up_arr, right_up_arr)))</span><br><span class="line">    <span class="keyword">except</span> EOFError:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>]]></content>
-  </entry>
-  <entry>
-    <title>工作笔记</title>
-    <url>/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>生产力工具合集</p>
-<span id="more"></span>
-<h2 id="GitHub使用"><a href="#GitHub使用" class="headerlink" title="GitHub使用"></a>GitHub使用</h2><h2 id="自动补全代码"><a href="#自动补全代码" class="headerlink" title="自动补全代码"></a>自动补全代码</h2><p>VSCode 的插件 Fitten Code 是由非十大模型驱动的 AI 编程助手，它可以自动生成代码，提升开发效率，帮您调试 Bug，节省您的时间， 另外还可以对话聊天，解决您编程碰到的问题。<br>Fitten Code 免费且支持 80 多种语言：Python、C++、Javascript、Typescript、Java等。</p>
-<ul>
-<li><a href="#section1">安装</a></li>
-</ul>
-<h3 id="1、安装"><a href="#1、安装" class="headerlink" title="1、安装"></a>1、安装<a id="section1"></a></h3><p>如果您已经安装 VSCode 且版本大于等于1.68.0，请直接跳过此步骤，否则请点击<a class="link"   href="https://code.visualstudio.com/download" >下载<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>前往官网下载安装 VSCode。<br>打开 VSCode，点击左侧 <font style="background:lightgray;border-radius:5px"><strong>Extensions</strong>（扩展）</font>按钮：<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/image-20240331143310976.png"
-                     
-                ><br>在搜索框中搜索关键字 <font style="background:lightgray;border-radius:5px">Fitten Code</font>：<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/image-20240331143320676.png"
-                     
-                ><br>在搜索结果中点击 <font style="background:lightgray;border-radius:5px">Install</font>：<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/image-20240331143331434.png"
-                     
-                ><br>登录注册后即可开始使用：<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/image-20240331144116360.png"
-                     
-                ></p>
-<h3 id="2、智能补全"><a href="#2、智能补全" class="headerlink" title="2、智能补全"></a>2、智能补全</h3>]]></content>
   </entry>
   <entry>
     <title>从零开始搭建个人博客</title>
@@ -855,5 +823,37 @@
 
 <p>\blog\themes\redefine\source\audios<br>\blog\themes\redefine\source\images<br>\blog\themes\redefine\source\js\sakura.js<br>\blog\themes\redefine\source\css\custom.css</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>工作笔记</title>
+    <url>/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>生产力工具合集</p>
+<span id="more"></span>
+<h2 id="GitHub使用"><a href="#GitHub使用" class="headerlink" title="GitHub使用"></a>GitHub使用</h2><h2 id="自动补全代码"><a href="#自动补全代码" class="headerlink" title="自动补全代码"></a>自动补全代码</h2><p>VSCode 的插件 Fitten Code 是由非十大模型驱动的 AI 编程助手，它可以自动生成代码，提升开发效率，帮您调试 Bug，节省您的时间， 另外还可以对话聊天，解决您编程碰到的问题。<br>Fitten Code 免费且支持 80 多种语言：Python、C++、Javascript、Typescript、Java等。</p>
+<ul>
+<li><a href="#section1">安装</a></li>
+</ul>
+<h3 id="1、安装"><a href="#1、安装" class="headerlink" title="1、安装"></a>1、安装<a id="section1"></a></h3><p>如果您已经安装 VSCode 且版本大于等于1.68.0，请直接跳过此步骤，否则请点击<a class="link"   href="https://code.visualstudio.com/download" >下载<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>前往官网下载安装 VSCode。<br>打开 VSCode，点击左侧 <font style="background:lightgray;border-radius:5px"><strong>Extensions</strong>（扩展）</font>按钮：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/image-20240331143310976.png"
+                     
+                ><br>在搜索框中搜索关键字 <font style="background:lightgray;border-radius:5px">Fitten Code</font>：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/image-20240331143320676.png"
+                     
+                ><br>在搜索结果中点击 <font style="background:lightgray;border-radius:5px">Install</font>：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/image-20240331143331434.png"
+                     
+                ><br>登录注册后即可开始使用：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/03/31/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/image-20240331144116360.png"
+                     
+                ></p>
+<h3 id="2、智能补全"><a href="#2、智能补全" class="headerlink" title="2、智能补全"></a>2、智能补全</h3>]]></content>
   </entry>
 </search>
