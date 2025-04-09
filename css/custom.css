@@ -1,0 +1,10 @@
+/* 设置所有链接为蓝色 */
+a {
+    color: #007aff !important; /* iOS 蓝 / 你可以替换为 #0000ff 或其它 */
+  }
+  
+  /* 鼠标悬停时变深色 */
+  a:hover {
+    color: #0051c7 !important;
+  }
+  
